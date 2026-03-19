@@ -1,0 +1,12 @@
+parameter,value
+n_series,50
+min_seasonality_strength,0.1
+seasonal_period,12
+forecast_horizons,"[6, 12, 18]"
+max_lags,24
+seasonal_periods,"[12, 24]"
+fourier_terms,"[2, 4, 6]"
+catboost_params,"{'iterations': 1000, 'learning_rate': 0.1, 'depth': 6, 'random_seed': 42, 'verbose': False, 'early_stopping_rounds': 100}"
+cv_folds,3
+walkforward_windows,3
+validation_min_train_size,50
