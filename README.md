@@ -30,7 +30,7 @@ python run_experiment.py
 
 Результаты сохраняются в `results/`:
 - `experiment_results_*_main.csv` — результаты моделей
-- `experiment_results_*_config.csv` — параметры конфика
+- `experiment_results_*_config.csv` — параметры конфига
 - `analysis_results.ipynb` — визуализация
 
 Подробный анализ см. в `report.pdf`
